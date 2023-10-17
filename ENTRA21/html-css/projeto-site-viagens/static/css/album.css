@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    background-color: #BDA0BC;
+    font-size: 16px;
+}
+
+
+
+section{
+    display: flex;
+    flex-direction: column;
+}
+
+.caixa {
+    border-style: groove;
+    border-radius: 15px;
+    width: 375px;
+    margin: auto ;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 4px;
+}
+
+.fotografias {
+    width: 370px;
+    height: 250px; 
+    border-radius: 15px;
+}
+
+.caixa figcaption {
+    margin: 10px;
+    text-align: justify;
+}
+
+textarea {
+    background-color: white;
+    border-radius: 10px;
+    width: 370px;
+}
+
+
+@media screen and (min-width: 500px) {
+    html {
+        background: linear-gradient(to bottom, #BDA0BC, #A2708A, #824670);
+        width: 100%;
+        font-size: 20px;
+    }
+    
+    nav {
+        width: 100%;
+        margin: auto;
+    }
+
+    section {
+        margin: auto;
+        width: 55%;
+        background-color: #E5D9F2;
+    }
+    
+    .caixa {
+        border-style: groove;
+        border-radius: 15px;
+        width: 95%;
+        height: 100%;
+        margin: auto ;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 4px;
+    }
+    
+    .fotografias {
+        width: 35rem;
+        height: 20rem; 
+        border-radius: 15px;
+    }
+    
+    .caixa figcaption {
+        margin: 10px;
+        text-align: center;
+    }
+    
+    textarea {
+        background-color: white;
+        border-radius: 10px;
+        width: 700px;
+    }
+
+    footer {
+        background-color: black;
+        color: white;
+        text-align: center;
+        margin: auto;
+        width: 90%;
+    }
+}

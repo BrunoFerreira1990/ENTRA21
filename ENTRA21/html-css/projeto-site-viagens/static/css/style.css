@@ -1,0 +1,133 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    font-size: 16px;
+    background-color: #BDA0BC;
+    margin: auto;
+}
+
+main {
+    margin: auto;
+    width: 400px;
+}
+
+
+section {
+    margin: 15px 10px;
+    text-align: center;
+    background-color: #BDA0BC;
+    width: 390px;
+    margin: auto;
+}
+
+section h1 {
+    padding: 50px;
+
+}
+
+section h1::after {
+    display: block;
+    width: 50%;
+    height: 2px;
+    background-color: black;
+    content: "";
+    margin: 10px auto;
+}
+
+section h2 {
+    padding: 50px;
+}
+
+section h2::after {
+    display: block;
+    width: 25%;
+    height: 2px;
+    background-color: black;
+    content: "";
+    margin: 10px auto;
+}
+
+
+.imagens-intro {
+    height: 13rem;
+    width: 21rem;
+    border-radius: 10px;
+}
+
+
+.destino-box {
+    border-style: groove;
+    border-radius: 15px;
+    width: 22rem;
+    margin: auto;   
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border-color: #824670;
+}
+
+
+
+@media screen and (min-width: 500px){
+    html {
+        font-size: 20px;
+        width: 100%;
+        margin: auto;
+    }
+
+    main {
+        margin: auto;
+        width: 100%;
+    }
+
+   
+    section {
+        margin: 15px 10px;
+        text-align: center;
+        width: 90%;
+        margin: auto;
+    }
+
+    section h1::after {
+        display: block;
+        width: 15%;
+        height: 2px;
+        background-color: black;
+        content: "";
+        margin: 10px auto;
+    }
+    
+    section h2::after {
+        display: block;
+        width: 8%;
+        height: 2px;
+        background-color: black;
+        content: "";
+        margin: 10px auto;
+    }
+    
+    .destinos {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    .imagens-intro {
+        height: 15rem;
+        width: 28rem;
+        border-radius: 10px;
+    }
+    
+    
+    .destino-box {
+        border-style: groove;
+        border-radius: 15px;
+        text-align: center;
+        width: 29rem;
+        height: 17rem;  
+        margin: 15px 10px;
+        border-color: #824670;
+    }
+    
+}

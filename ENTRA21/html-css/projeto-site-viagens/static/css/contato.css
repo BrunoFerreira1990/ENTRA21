@@ -1,0 +1,117 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    font-size: 16px;
+    background-color: #BDA0BC;
+    margin: auto;
+}
+
+nav {
+    margin: auto;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+h1 {
+    margin: 50px;
+    font-size: 1.5rem;
+}
+
+label {
+    margin: 10px;
+    height: 25px;
+    width: 350px;
+}
+
+input {
+    background-color: white;
+    border: 1px solid black;
+    margin: 0 10px;
+    height: 25px;
+    width: 350px;
+}
+
+textarea {
+    background-color: white;
+    margin: 0 10px;
+    display: block;
+}
+
+form p {
+    margin: 10px 10px;
+}
+
+button {
+    margin: 10px auto;
+    width: 8rem;
+    height: 2rem;
+}
+
+@media screen and (min-width: 500px){
+    html {
+        font-size: 20px;
+        background-color: #BDA0BC;
+        width: 100%;
+    }
+
+    main {
+        width: 50%;
+        margin: auto;
+    }
+    
+    form {
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+    }
+
+    
+    h1 {
+        margin: 50px;
+        text-align: center;
+    }
+    
+    label {
+        margin: 10px;
+        height: 25px;
+    }
+    
+    input {
+        background-color: white;
+        border: 1px solid black;
+        margin: 0 10px;
+        height: 25px;
+        width: 100%;
+    }
+    
+    textarea {
+        background-color: white;
+        margin: 0 10px;
+        display: block;
+        width: 100%;
+    }
+    
+    form p {
+        margin: 10px 10px;
+    }
+    
+    button {
+        margin: 18px auto;
+        width: 8rem;
+        height: 2rem;
+    }
+    
+    footer {
+        background-color: black;
+        color: white;
+        text-align: center;
+        margin: auto;
+        width: 90%;
+    }
+}

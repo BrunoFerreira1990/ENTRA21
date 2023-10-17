@@ -1,0 +1,41 @@
+ul {
+    background-color: #D3FAC7;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+ul a {
+    text-decoration: none;
+    color: #C1F7DC;
+}
+
+ul li {
+    border-style: unset;
+    width: 50%;
+    padding: .1%;
+    text-align: center;
+    background-color: #824670;
+    transition: .5s;
+}
+
+ul li:hover {
+    background-color: #A2708A;
+}
+
+footer {
+    background-color: #824670;
+    color: #C1F7DC;
+    text-align: center;
+    margin: auto;
+}
+
+@media screen and (min-width: 500px) {
+    footer {
+        color: white;
+        text-align: center;
+        margin: auto;
+        width: 100%;
+    }
+
+}
